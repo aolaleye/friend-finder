@@ -1,2 +1,2 @@
-# friend-finder
-Friend Finder - Node and Express Servers
+# Friend Finder - Node and Express Servers
+

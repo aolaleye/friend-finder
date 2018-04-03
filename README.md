@@ -1,4 +1,6 @@
-# Friend Finder - _Using Node and Express Servers_
+# Friend Finder
+
+## _Using Node and Express Servers_
 
 #### Friend Finder is a compatibility-based application. This full-stack site takes in results from user surveys and compares the answers with those from other users. Upon completion of the survey, the app displays the name and picture of the user with the best overall match.
 

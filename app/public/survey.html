@@ -31,11 +31,18 @@
         .about-you {
             margin-bottom: 30px;
         }
+
+        .header {
+            background-color: rgb(235, 235, 235);
+            padding: 25px 10px;
+            border-radius: 3px;
+            color: rgb(141, 141, 141);
+        }
     </style>
 
   <div class="container">
 
-    <h2>Survey</h2>
+    <h2 class="header">Survey</h2>
     <hr>
 
     <div>
@@ -269,8 +276,8 @@
         // AJAX post the data to the friends API.
         $.post("/api/friends", userData, function(data) {
 
-          $("#match-name").text(data.name);
-          $("#match-img").attr("src", data.photo);
+          $("#match-name").text(data.matchName);
+          $("#match-img").attr("src", data.matchPhoto);
 
           $("#results-modal").modal("toggle");
 

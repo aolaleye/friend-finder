@@ -13,9 +13,9 @@
     * __Heroku__ _(for deployment)_
 
 * #### How to Install and Run:
-    > `git clone https://github.com/aolaleye/friend-finder.git`
-    > `cd friend-finder`
-    > `npm i`
-    > `node server.js`
+    * > `git clone https://github.com/aolaleye/friend-finder.git`
+    * > `cd friend-finder`
+    * > `npm i`
+    * > `node server.js`
 
 #### > Deployed Site: https://murmuring-lowlands-21511.herokuapp.com/
